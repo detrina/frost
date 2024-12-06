@@ -13,7 +13,7 @@ frost-ristretto255 = "2.0.0"
 
 Most crate functions mentioned below return `Result`s with
 [`Error`](https://docs.rs/frost-ristretto255/latest/frost_ristretto255/type.Error.html)s.
-All errors should be considered fatal and should lead to aborting the key
+All errors should be considered critical and require lead to aborting the key
 generation or signing procedure.
 
 ## Serializing structures
